@@ -3,7 +3,7 @@ import ContactDetail from '../components/ContactDetail';
 
 const ViewContact: React.FC = () => {
   return (
-    <div>
+    <div className="bg-gray-100 min-h-screen py-8">
       <ContactDetail />
     </div>
   );
